@@ -128,7 +128,6 @@ html body main article {
 }
 html body main article .titulo2 {
   width: 95%;
-  padding-left: 20px;
   text-align: center;
 }
 html body main article .titulo2 h1 {
@@ -228,7 +227,7 @@ html body main article .burn div .eshaton1 {
   letter-spacing: 10px;
 }
 html body main article .burn div .eshaton2 {
-  font-size: 70px;
+  font-size: 3.8vw;
 }
 html body main article .imagenes {
   display: flex;
@@ -319,6 +318,58 @@ html body main article .imagenes .explorar a {
   padding-top: 25px;
   width: 100%;
   color: white;
+}
+html body main article .silencio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+html body main article .silencio .upcoming {
+  margin-top: 50px;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  align-items: center;
+}
+html body main article .silencio .upcoming h1 {
+  font-size: 100px;
+}
+html body main article .silencio .contenedor_cara {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+html body main article .silencio .contenedor_cara .cara {
+  display: flex;
+  width: calc((89.999vw - 220px)/6*1);
+  flex-basis: 23%;
+  margin-right: 2%;
+}
+html body main article .silencio .contenedor_cara .cara img {
+  width: 100%;
+}
+html body main article .silencio .contenedor_cara .lex {
+  display: flex;
+  flex-basis: 23%;
+  margin-right: 2%;
+}
+html body main article .silencio .contenedor_cara .lex p {
+  font-size: 20px;
+}
+html body main article .silencio .contenedor_cara .cerebro {
+  display: flex;
+  flex-basis: 23%;
+  margin-right: 2%;
+}
+html body main article .silencio .contenedor_cara .cerebro img {
+  width: 100%;
+}
+html body main article .silencio .contenedor_cara .exalters {
+  display: flex;
+  flex-basis: 23%;
+}
+html body main article .silencio .contenedor_cara .exalters p {
+  font-size: 20px;
 }
 html body main article footer {
   display: flex;
