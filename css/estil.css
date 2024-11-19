@@ -1,0 +1,325 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+html ::-webkit-scrollbar {
+  display: none;
+}
+html body {
+  background-color: black;
+}
+html body ::selection {
+  background-color: red;
+  color: gray;
+}
+html body .cls-1 {
+  fill: white;
+}
+html body .cls-2 {
+  fill: red;
+}
+html body .rojito {
+  color: red;
+}
+html body .marginL::first-letter {
+  padding-left: 1em;
+}
+html body nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100px;
+  height: 100vh;
+  border-right: 1px solid #3e4144;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+html body nav img {
+  width: 100%;
+  border-bottom: 1px solid #3e4144;
+  border-right: 1px solid #3e4144;
+}
+html body nav .svg-container {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+html body nav .texto {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  transform: rotate(90deg);
+  transform-origin: left bottom;
+  width: 535px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body nav .texto a {
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+}
+html body nav .texto a:hover {
+  transition: all 0.5s;
+  color: red;
+}
+html body nav .texto .link1 {
+  font-size: 30px;
+  padding-right: 60px;
+}
+html body .fondo1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 110vh;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 80%, #000000 100%), url("https://img2.storyblok.com/1920x1085/filters:quality(90)/f/72501/2550x1440/c01134c939/opener-enemoi.png");
+  background-size: cover;
+}
+html body main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-left: 100px;
+}
+html body main header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 115vh;
+  width: 100%;
+  color: white;
+}
+html body main header .titulo {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+html body main header .titulo svg {
+  padding-bottom: 5%;
+}
+html body main header .gratis {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+html body main article {
+  display: flex;
+  flex-direction: column;
+  height: 125vh;
+  color: white;
+}
+html body main article .titulo2 {
+  width: 95%;
+  padding-left: 20px;
+  text-align: center;
+}
+html body main article .titulo2 h1 {
+  font-size: calc((89.999vw - 220px) / 6*1.015);
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+html body main article section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+html body main article section .vacio {
+  display: flex;
+  flex-basis: 25%;
+}
+html body main article section .degenesis {
+  display: flex;
+  flex-basis: 25%;
+}
+html body main article section .degenesis img {
+  width: 350px;
+}
+html body main article section .brufau {
+  position: absolute;
+  background-color: #3e4144;
+  width: 100%;
+  height: 1px;
+}
+html body main article section .contenedor-que {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  height: 100%;
+  width: 27%;
+}
+html body main article section .contenedor-que .que {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 5px;
+  width: 5%;
+  height: 10%;
+  margin-top: 35%;
+  margin-bottom: 50px;
+}
+html body main article section .contenedor-que .que p {
+  display: flex;
+}
+html body main article section .contenedor-que .mucho {
+  display: flex;
+  width: 100%;
+}
+html body main article section .contenedor-que .mucho p {
+  font-size: 17px;
+  line-height: 25px;
+}
+html body main article .links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 5%;
+}
+html body main article .links div {
+  display: flex;
+  flex-basis: 30%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  width: 30%;
+  height: 80px;
+  margin-right: 20px;
+}
+html body main article .links a {
+  text-decoration: none;
+  font-size: 23px;
+  padding-top: 25px;
+  width: 100%;
+  color: white;
+}
+html body main article .burn {
+  display: flex;
+  height: 80vh;
+  background-color: black;
+  margin-top: 200px;
+  margin-left: 5%;
+}
+html body main article .burn div {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+html body main article .burn div p {
+  color: white;
+}
+html body main article .burn div .eshaton1 {
+  font-size: 25px;
+  margin-bottom: 4%;
+  letter-spacing: 10px;
+}
+html body main article .burn div .eshaton2 {
+  font-size: 70px;
+}
+html body main article .imagenes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  margin-left: 5%;
+}
+html body main article .imagenes .pecados {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+html body main article .imagenes .pecados .trio {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 29%;
+  align-items: center;
+  justify-content: center;
+}
+html body main article .imagenes .pecados .trio .agente {
+  display: flex;
+  flex-basis: 15%;
+  font-size: 60px;
+}
+html body main article .imagenes .pecados .trio .brufau2 {
+  display: flex;
+  height: 1px;
+  flex-basis: 60%;
+  margin-right: 5%;
+  color: gray;
+  background-color: gray;
+}
+html body main article .imagenes .pecados .trio .cultura {
+  display: flex;
+  flex-basis: 25%;
+  font-size: 20px;
+  align-items: center;
+  justify-content: left;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+html body main article .imagenes .pecados .vacio2 {
+  display: flex;
+  flex-basis: 29%;
+  align-items: center;
+}
+html body main article .imagenes .pecados .siete {
+  display: flex;
+  flex-basis: 29%;
+  font-size: 18px;
+  align-items: center;
+}
+html body main article .imagenes .scroll {
+  display: flex;
+  width: 90%;
+  height: 500px;
+  overflow-x: scroll;
+}
+html body main article .imagenes .scroll .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+html body main article .imagenes .scroll .images .image-item {
+  display: flex;
+  background-color: cyan;
+  min-width: 30%;
+  margin-right: 2%;
+}
+html body main article .imagenes .scroll .images .image-item img {
+  width: 100%;
+  height: 100%;
+}
+html body main article .imagenes .explorar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  text-align: left;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  width: 87%;
+  height: 80px;
+}
+html body main article .imagenes .explorar a {
+  text-decoration: none;
+  font-size: 23px;
+  padding-top: 25px;
+  width: 100%;
+  color: white;
+}
+html body main article footer {
+  display: flex;
+}
